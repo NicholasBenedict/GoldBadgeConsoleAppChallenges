@@ -12,8 +12,8 @@ namespace CafeMenu
 
         public void Run()
         {
-            RunMenu();
             SeedData();
+            RunMenu();    
         }
         private void RunMenu()
         {
